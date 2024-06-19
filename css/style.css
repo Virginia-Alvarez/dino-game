@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url("https://t4.ftcdn.net/jpg/05/78/96/85/360_F_578968585_NIPEtzXnbifuEnM608PMDsrOeeLkAZed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title{
+    font-size: 30px;
+    color: brown;
+}
+
+.scoreSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(151, 40, 40);
+    gap: 15px;
+    font-size: 20px;
+}
+
+#canvas{
+    background-color: white;
+    border-radius: 15px;
+    border:  2px solid greenyellow;
+}
+
+
+/* #character{
+    background-image: url('../img/Dino2legs.svg');
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 300px;
+    left: 5px;
+}
+
+#obstacle{
+    width: 80px;
+    height: 80px;
+    background-image: url('../img/CACTUS.svg');
+    position: relative; 
+    top: 220px;
+    left: 620px;
+} */
+
+/* .characterMove{
+    animation: jump 3s  linear;
+}
+
+@keyframes obstacle{
+    0%{left: 640px;}
+    100%{left: -10px;}
+}
+
+@keyframes jump {
+    0%{top:300px}
+    25%{top:250px}
+    50%{top:200px}
+    75%{top:180px}
+    100%{top:160px}
+} */
